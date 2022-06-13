@@ -1,38 +1,17 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- *  * swap_int - swap the value of two integers.
+ *  *swap_int - Entry point
  *   *
- *    * @a: first integer.
- *     * @b: second integer.
- *      *
+ *    *@a: give me a value
+ *     *@b: give me another value
+ *      *Return: 0.
  *       */
-
 void swap_int(int *a, int *b)
 {
-		int c;
+		int aux;
 
-		c = 0;
-		c = *a;
-		*a = *b;
-
-		*b = c;
+			aux = *a;
+				*a = *b;
+					*b = aux;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
